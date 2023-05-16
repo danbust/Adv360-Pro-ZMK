@@ -31,11 +31,11 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    &mt {
+    tapping-term-ms = <400>;
+    };
   };
 
-&mt {
-    tapping-term-ms = <400>;
-};
 
 / {
 
